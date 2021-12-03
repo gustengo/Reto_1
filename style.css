@@ -220,7 +220,6 @@ header img {
 footer {
   width: 100%;
   height: 50rem;
-  background: pink;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -233,7 +232,6 @@ footer {
 footer #topSide {
   width: 100%;
   height: 40rem;
-  background: red;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -245,8 +243,7 @@ footer #topSide {
 
 footer #topSide #logosFooter {
   width: 100%;
-  height: 50%;
-  background: blue;
+  height: 30%;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -254,6 +251,89 @@ footer #topSide #logosFooter {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+footer #topSide #redesFooter {
+  width: 100%;
+  height: 30%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin: 2rem;
+}
+
+footer #topSide #redesFooter img {
+  width: 3rem;
+  margin: 0.5rem;
+}
+
+footer #topSide #nosotrosFooter {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+footer #topSide #nosotrosFooter h2 {
+  margin-bottom: 1rem;
+}
+
+footer #topSide #nosotrosFooter ul {
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  text-align: center;
+}
+
+footer #topSide #nosotrosFooter ul li {
+  margin-bottom: 1rem;
+}
+
+footer #topSide #contactanosFooter {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+}
+
+footer #topSide #contactanosFooter h2 {
+  margin-top: 2rem;
+  margin-bottom: 1rem;
 }
 
 @media only screen and (min-width: 768px) {
@@ -374,6 +454,27 @@ footer #topSide #logosFooter {
     margin: 1rem;
     margin-right: 4.5rem;
     border-radius: 50%;
+  }
+  footer {
+    width: 100%;
+    height: 25rem;
+    background: pink;
+  }
+  footer #topSide {
+    height: 80%;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  footer #logosFooter #redesFooter img {
+    height: 2rem;
   }
 }
 /*# sourceMappingURL=style.css.map */
